@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  background-color: #a33f4e;
+}
+
+.circle {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 100vw;
+  background-image: linear-gradient(#c36271 50%, #f2c09f 50%);
+}
